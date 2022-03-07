@@ -67,7 +67,7 @@ public class FXMLController {
     	tentativo = Integer.parseInt(ts);
     	txtNumero.clear();
     	} catch (NumberFormatException e) {
-    		txtEsito.setText("Devi inserire un tentativo numerico tra 1 e 100");
+    		txtEsito.setText("Devi inserire un tentativo numerico tra 1-100");
     		return;
     	}
     	
